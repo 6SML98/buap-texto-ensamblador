@@ -1,4 +1,10 @@
-# P Fnl
+# Texto en ensamblador
+
+Proyecto final en ensamblador x86 para DOS: entrada y procesamiento de texto.
+
+Proyecto académico de BUAP. Proyecto final seleccionado.
+
+## Documentación y requisitos
 
 Proyecto o conjunto de prácticas académicas de BUAP. Se publica como parte del archivo de trabajos de `6SML98`.
 
