@@ -1,25 +1,21 @@
 # Texto en ensamblador
 
-Proyecto final en ensamblador x86 para DOS: entrada y procesamiento de texto.
+Programa DOS en ensamblador x86 que recibe texto y lo muestra junto con un reloj.
 
-Proyecto académico de BUAP. Proyecto final seleccionado.
+## Requisitos
 
-## Documentación y requisitos
+MASM 5.10, LINK para DOS y DOSBox.
 
+## Ejecutar
 
+En DOSBox, monta la carpeta del proyecto como C:, copia tus herramientas MASM y LINK y ejecuta:
 
-## Tecnologías y archivos
+```text
+masm PF.asm;
+link PF.obj;
+PF.exe
+```
 
-Extensiones de código: .asm.
+## Verificación del 8 de octubre de 2026
 
-## Ejecución
-
-Revisar el archivo de entrada y usar la herramienta correspondiente al lenguaje. La ejecución no se ha verificado.
-
-## Contenido publicado
-
-Se conserva el código y los recursos referenciados. Se excluyen dependencias instaladas, resultados de compilación, configuraciones personales, documentos ajenos al programa y datos locales.
-
-## Estado
-
-Archivo académico original. Puede contener operaciones pendientes o dependencias antiguas. No se ha verificado la ejecución de todos los programas.
+Se ensambló y enlazó con cero errores en DOSBox Staging. La interacción con el teclado y el movimiento de texto no se probaron. No ejecuta directamente como programa Windows de 64 bits.
